@@ -32,3 +32,4 @@ jobs:
         docker push $IMAGE_NAME:dev
         docker build -t $IMAGE_NAME:dev .
         docker push $IMAGE_NAME:dev
+        #done
